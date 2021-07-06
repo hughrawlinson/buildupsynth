@@ -30,7 +30,7 @@ fun void interpolateRate(){
     if (rate < 0) {
       1 => rate;
     }
-    10::ms => now;
+    quarter/32 => now;
   }
 }
 
